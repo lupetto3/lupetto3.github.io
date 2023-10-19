@@ -9,3 +9,17 @@ nav {
     /* margin: 5%; */
     padding: 2px;
 }
+
+nav > ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+nav > h1 {
+    padding: 0%;
+}
+
+nav > ul > li {
+    padding-right: 2%;
+}
