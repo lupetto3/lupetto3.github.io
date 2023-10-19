@@ -3,3 +3,9 @@ html {
     font-family: monospace;
 }
 
+nav {
+    background: rgba(46, 42, 42, 0.8);
+    position: sticky;
+    /* margin: 5%; */
+    padding: 2px;
+}
