@@ -32,3 +32,11 @@ nav > ul > li {
   text-align: center;
   color: whitesmoke;
 }
+
+.welcome-section > h1 {
+  padding-top: 2%;
+}
+
+.welcome-section > h3 {
+  padding-bottom: 2%;
+}
