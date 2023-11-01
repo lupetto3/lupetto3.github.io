@@ -42,3 +42,8 @@ nav > ul > li {
   padding-bottom: 10%;
   font-size: 50px;
 }
+
+i {
+  font-size: 200px;
+  color: rgba(46, 42, 42, 0.8);
+}
