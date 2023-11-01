@@ -28,6 +28,7 @@ nav > ul > li {
   /* background: rgba(46, 42, 42, 0.8); */
   border-radius: 10px;
   width: 50%;
+  height: 60rem;
   margin: auto;
   text-align: center;
   color: whitesmoke;
@@ -52,4 +53,5 @@ hr {
 i {
   font-size: 200px;
   color: rgba(46, 42, 42, 0.8);
+  
 }
