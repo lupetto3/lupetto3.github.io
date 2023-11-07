@@ -51,6 +51,16 @@ hr {
   margin: 20px;
 }
 
+.about-me {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.about-me p {
+  font-size: larger;
+}
+
 i {
   font-size: 200px;
   color: rgba(46, 42, 42, 0.8);
