@@ -62,14 +62,14 @@ nav > ul > li {
   margin: auto;
 }
 
-.about-me h3 {
-  font-size: 2rem;
-  color: whitesmoke;
-}
-
 .about-me p {
   font-size: 1.8rem;
   color: rgba(46, 42, 42, 0.8);
+}
+
+.titles {
+  font-size: 2rem;
+  color: whitesmoke;
 }
 
 i {
@@ -81,5 +81,5 @@ i {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 3%;
+  margin-top: 2%;
 }
