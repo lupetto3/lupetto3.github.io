@@ -51,14 +51,28 @@ nav > ul > li {
   margin: 20px;
 } */
 
+.break-div {
+  background: rgba(46, 42, 42, 0.8);
+  height: 3px;
+  width: auto;
+  margin: 2px;
+  border-radius: 3px;
+
+}
+
 .about-me {
   width: 50%;
   text-align: center;
   margin: auto;
 }
 
+.about-me h3 {
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
 .about-me p {
-  font-size: 25px;
+  font-size: 1.8rem;
   color: rgba(46, 42, 42, 0.8);
 }
 
