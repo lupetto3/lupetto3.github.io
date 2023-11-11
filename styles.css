@@ -43,7 +43,7 @@ nav > ul > li {
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 @keyframes typing {
