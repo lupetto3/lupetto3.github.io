@@ -26,21 +26,45 @@ nav > ul > li {
 }
 
 .welcome-section {
-  /* background: rgba(46, 42, 42, 0.8); */
-  border-radius: 10px;
-  width: 50%;
+  /* width: 50%;
   margin: auto;
-  text-align: center;
+  text-align: center; */
   color: whitesmoke;
+  height: 50vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-effect {
+  width: 25ch;
+  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .welcome-section > h1 {
   font-size: 100px;
 }
 
-.welcome-section > h3 {
+/* .welcome-section > h3 {
   font-size: 50px;
-}
+} */
 
 /* hr {
   color: rgba(46, 42, 42, 0.8);
