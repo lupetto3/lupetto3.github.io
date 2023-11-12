@@ -114,3 +114,10 @@ i {
   border-radius: 10px;
   margin: auto;
 }
+
+#contact {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  height: 50vh;
+}
