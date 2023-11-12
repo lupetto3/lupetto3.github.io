@@ -30,20 +30,20 @@ nav > ul > li {
   margin: auto;
   text-align: center; */
   color: whitesmoke;
-  height: 50vh;
+  height: 70vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
 }
 
 .typing-effect {
-  width: 25ch;
-  animation: typing 2s steps(25), blink 0.5s step-end infinite alternate;
+  width: 33ch;
+  animation: typing 2s steps(33), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 @keyframes typing {
@@ -58,9 +58,9 @@ nav > ul > li {
   }
 }
 
-.welcome-section > h1 {
+/* .welcome-section > h1 {
   font-size: 100px;
-}
+} */
 
 .break-div {
   background: rgba(46, 42, 42, 0.8);
