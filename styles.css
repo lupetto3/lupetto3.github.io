@@ -27,6 +27,14 @@ nav > ul {
 
 nav > ul > li {
   padding-right: 2%;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: larger;
 }
 
 .welcome-section {
