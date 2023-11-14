@@ -10,7 +10,7 @@ header {
 }
 
 nav {
-  background: rgba(46, 42, 42, 0.8);
+  background: rgba(46, 42, 42, 0.5);
   /* margin: 5%; */
   padding: 2px;
   border-radius: 10px;
@@ -79,10 +79,10 @@ nav>ul>li {
 } */
 
 .break-div {
-  background: rgba(46, 42, 42, 0.8);
+  background: rgba(46, 42, 42, 0.5);
   height: 3px;
   width: auto;
-  margin: 2px;
+  margin: 2px; display:flexbox;
   border-radius: 10px;
 }
 
@@ -91,6 +91,8 @@ nav>ul>li {
   text-align: center;
   margin: auto;
   height: 950px;
+  align-items: center;
+  
 }
 
 .about-me p {
@@ -114,6 +116,7 @@ i {
   justify-content: space-evenly;
   margin: auto;
   height: 950px;
+  align-items: center;
 }
 
 #projects {
@@ -124,11 +127,18 @@ i {
 }
 
 .coming-soon {
-  height: 12rem;
+  height: auto;
   width: 50%;
-  background: rgba(46, 42, 42, 0.8);
+  border: 3px solid rgba(46, 42, 42, 0.8);
   border-radius: 10px;
   margin: auto;
+}
+
+.coming-soon p {
+  font-size: xx-large;
+  font-weight: 1000;
+  text-align: center;
+  align-items: center;
 }
 
 #contact {
