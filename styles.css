@@ -105,7 +105,7 @@ nav>ul>li {
   color: whitesmoke;
 }
 
-i {
+.skills i {
   font-size: 200px;
   color: rgba(46, 42, 42, 0.8);
 }
@@ -139,11 +139,22 @@ i {
   font-weight: 1000;
   text-align: center;
   align-items: center;
+  color: rgba(46, 42, 42, 0.8);
 }
 
 #contact {
-  width: 50%;
   text-align: center;
+  height: 95vh;
+  
+}
+
+#contact .contact-icons i {
+  display: flex;
+  justify-content: space-evenly;
   margin: auto;
-  height: 50vh;
+}
+
+#contact i {
+  font-size: 100px;
+  color: rgba(46, 42, 42, 0.8);
 }
