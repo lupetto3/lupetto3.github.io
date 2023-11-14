@@ -112,11 +112,11 @@ i {
   height: 950px;
 }
 
-.projects {
+#projects {
   text-align: center;
   display: flex;
   margin:: auto;
-  height: 50vh;
+  height: 950px;
 }
 
 .coming-soon {
