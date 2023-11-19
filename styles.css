@@ -149,12 +149,11 @@ nav>ul>li {
 }
 
 #contact .contact-icons i {
-  display: flex;
-  justify-content: space-evenly;
   margin: auto;
 }
 
 #contact i {
   font-size: 100px;
   color: rgba(46, 42, 42, 0.8);
+
 }
