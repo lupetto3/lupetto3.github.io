@@ -95,13 +95,13 @@ nav>ul>li {
 .about-me p {
   font-size: 1.8rem;
   color: rgba(46, 42, 42, 0.8);
+  text-align: center;
 }
 
 .titles {
   font-size: 2rem;
   color: whitesmoke;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .skills i {
@@ -110,14 +110,11 @@ nav>ul>li {
 }
 
 .skills {
-  display: flex;
-  justify-content: space-evenly;
   margin: auto;
   height: 950px;
 }
 
 #projects {
-  display: flex;
   margin: auto;
   height: 950px;
 }
