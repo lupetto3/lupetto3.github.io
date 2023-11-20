@@ -31,6 +31,7 @@ nav>h1 {
 nav>ul>li {
   padding-right: 2%;
   list-style: none;
+  transition: color 0.5s;
 }
 
 #navbar a {
@@ -38,6 +39,11 @@ nav>ul>li {
   color: whitesmoke;
   font-weight: 800;
   font-size: larger;
+  transition: color 0.5s;
+}
+
+#navbar a:hover {
+  color: black;
 }
 
 .welcome-section {
