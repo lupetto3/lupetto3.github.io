@@ -165,5 +165,9 @@ nav>ul>li {
 #contact i {
   font-size: 100px;
   color: rgba(46, 42, 42, 0.8);
+  transition: color 0.5s;
+}
 
+#contact i:hover {
+  color: rgba(46, 42, 42, 0.3);
 }
