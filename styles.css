@@ -81,7 +81,8 @@ nav>ul>li {
   background: rgba(46, 42, 42, 0.5);
   height: 3px;
   width: auto;
-  margin: 2px; display:flexbox;
+  margin: 2px;
+  display: flexbox;
   border-radius: 10px;
 }
 
@@ -89,7 +90,7 @@ nav>ul>li {
   width: 50%;
   margin: auto;
   height: 950px;
-  
+
 }
 
 .about-me p {
@@ -104,14 +105,14 @@ nav>ul>li {
   text-align: center;
 }
 
-.skills i {
-  font-size: 200px;
-  color: rgba(46, 42, 42, 0.8);
-}
-
 .skills {
   margin: auto;
   height: 950px;
+}
+
+.skills i {
+  font-size: 200px;
+  color: rgba(46, 42, 42, 0.8);
 }
 
 #projects {
@@ -135,7 +136,7 @@ nav>ul>li {
 
 #contact {
   height: 95vh;
-  
+
 }
 
 #contact .contact-icons i {
