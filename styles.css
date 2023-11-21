@@ -161,6 +161,13 @@ nav>ul>li {
 
 }
 
+#contact p {
+  font-size: 1.8rem;
+  color: rgba(46, 42, 42, 0.8);
+  text-align: center;
+  padding: 5% 5%;
+}
+
 .contact-icons {
   margin: auto;
   display: flex;
