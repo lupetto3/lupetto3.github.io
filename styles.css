@@ -12,6 +12,14 @@ header {
   height: 50px;
 }
 
+header h1 {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: xx-large;
+  position: absolute;
+  padding-left: 2%;
+}
+
 nav {
   padding: 2px;
 
@@ -20,13 +28,6 @@ nav {
 nav>ul {
   display: flex;
   justify-content: end;
-}
-
-nav>h1 {
-  color: whitesmoke;
-  font-weight: 800;
-  font-size: xx-large;
-  position: absolute;
 }
 
 nav>ul>li {
