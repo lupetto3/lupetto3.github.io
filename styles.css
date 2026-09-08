@@ -155,11 +155,12 @@ nav>ul>li {
   color: rgba(46, 42, 42, 0.3);
 }
 
-#projects {
+/* below is no longer necessary as i have updated to a more consistent approach */
+/* #projects {
   margin: auto;
   height: 950px;
   padding-top: 50px;
-}
+} */
 
 .coming-soon {
   height: auto;
@@ -174,12 +175,6 @@ nav>ul>li {
   font-weight: 1000;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
-}
-
-#contact {
-  height: 95vh;
-  padding-top: 50px;
-
 }
 
 #contact p {
