@@ -107,12 +107,12 @@ nav>ul>li {
   border-radius: 10px;
 }
 
-.about-me {
-  width: 55%;
-  margin: auto;
-  height: 950px;
-  padding-top: 50px;
-
+.about-me,
+.skills,
+#projects,
+#contact {
+  min-height: 100vh;
+  padding: 80px 5%;
 }
 
 .about-me p {
@@ -126,12 +126,6 @@ nav>ul>li {
   color: whitesmoke;
   text-align: center;
   padding-bottom: 5%;
-}
-
-.skills {
-  margin: auto;
-  height: 950px;
-  padding-top: 50px;
 }
 
 .skill-icons {
