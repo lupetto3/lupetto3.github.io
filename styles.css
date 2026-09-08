@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: linear-gradient(120deg, #00f320de, #00daff);
   font-family: monospace;
