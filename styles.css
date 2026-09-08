@@ -8,12 +8,24 @@ html {
   scroll-behavior: smooth;
 }
 
-header {
+/* header {
   background: rgba(46, 42, 42, 0.5);
   border-radius: 10px;
   position: fixed;
   width: 99%;
   height: 50px;
+} */
+
+/* Above isn't ideal for phones, because width and height force header into a height that its contents can't fit in */
+header {
+  background: rgba(46, 42, 42, 0.5);
+  border-radius: 10px;
+  position: fixed;
+  top: 5px;
+  left: 0.5%;
+  width: 99%;
+  min-height: 50px;
+  z-index: 1000;
 }
 
 header h1 {
