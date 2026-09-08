@@ -115,7 +115,6 @@ nav>ul>li {
   height: 3px;
   width: auto;
   margin: 2px;
-  display: flexbox;
   border-radius: 10px;
 }
 
