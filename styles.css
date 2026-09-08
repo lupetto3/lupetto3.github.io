@@ -65,11 +65,8 @@ nav>ul>li {
 }
 
 .welcome-section {
-  /* width: 50%;
-  margin: auto;
-  text-align: center; */
   color: whitesmoke;
-  height: 950px;
+  min-height: 100vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
