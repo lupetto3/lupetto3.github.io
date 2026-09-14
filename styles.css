@@ -175,9 +175,16 @@ nav>ul>li {
   padding-top: 50px;
 } */
 
-.coming-soon {
+/* .coming-soon {
   height: auto;
   width: 50%;
+  border: 5px dashed rgba(46, 42, 42, 0.8);
+  border-radius: 10px;
+  margin: auto;
+} */
+
+.coming-soon {
+  width: min(90%, 700px);
   border: 5px dashed rgba(46, 42, 42, 0.8);
   border-radius: 10px;
   margin: auto;
@@ -195,6 +202,7 @@ nav>ul>li {
   font-weight: 1000;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
+  padding: 0 10px;
 }
 
 /* #contact p {
