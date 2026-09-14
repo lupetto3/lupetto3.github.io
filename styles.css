@@ -175,8 +175,15 @@ nav>ul>li {
   margin: auto;
 }
 
-.coming-soon p {
+/* .coming-soon p {
   font-size: 100px;
+  font-weight: 1000;
+  color: rgba(46, 42, 42, 0.8);
+  text-align: center;
+} */
+
+.coming-soon p {
+  font-size: clamp(2rem, 8vw, 6.25rem);
   font-weight: 1000;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
