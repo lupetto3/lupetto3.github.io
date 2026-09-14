@@ -197,8 +197,16 @@ nav>ul>li {
   text-align: center;
 }
 
+/* #contact p {
+  font-size: 1.8rem;
+  color: rgba(46, 42, 42, 0.8);
+  text-align: center;
+} */
+
 #contact p {
   font-size: 1.8rem;
+  max-width: 900px;
+  margin: auto;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
 }
