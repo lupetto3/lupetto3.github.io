@@ -3,7 +3,7 @@
 }
 
 html {
-  background: linear-gradient(120deg, #00f320de, #00daff);
+  background: linear-gradient(120deg, #752ae6de, #00daff);
   font-family: monospace;
   scroll-behavior: smooth;
 }
@@ -126,8 +126,16 @@ nav>ul>li {
   padding: 80px 5%;
 }
 
+/* .about-me p {
+  font-size: 1.8rem;
+  color: rgba(46, 42, 42, 0.8);
+  text-align: center;
+} */
+
 .about-me p {
   font-size: 1.8rem;
+  max-width: 900px;
+  margin: auto;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
 }
