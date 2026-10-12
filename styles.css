@@ -262,7 +262,16 @@ nav>ul>li {
   list-style: none;
 }
 
-/* Mobile navigation */
+/* previous Mobile navigation - for learning 
+@media (max-width: 700px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+  }*/
+
+/* Updated mobile navigation */
 @media (max-width: 700px) {
   header {
     display: flex;
