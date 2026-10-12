@@ -64,6 +64,11 @@ nav>ul>li {
   color: black;
 }
 
+/* The hamburger is hidden on desktop */
+.menu-toggle {
+  display: none;
+}
+
 .welcome-section {
   color: whitesmoke;
   min-height: 100vh;
