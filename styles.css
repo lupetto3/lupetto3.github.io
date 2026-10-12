@@ -147,9 +147,18 @@ nav>ul>li {
   padding-bottom: 5%;
 }
 
+/*previous version - keep for learning
 .skill-icons {
   display: flex;
   justify-content: space-evenly;
+}*/
+
+/* Responsive version */
+.skill-icons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 /* .skills i {
