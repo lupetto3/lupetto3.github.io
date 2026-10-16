@@ -247,9 +247,9 @@ nav>ul>li {
 }*/
 
 #contact i {
-font-size: clamp(3.5rem, 12vw, 6.25rem);
-color: rgba(46, 42, 42, 0.8);
-transition: color 0.5s;
+  font-size: clamp(3.5rem, 12vw, 6.25rem);
+  color: rgba(46, 42, 42, 0.8);
+  transition: color 0.5s;
 }
 
 #contact i:hover {
@@ -261,12 +261,13 @@ transition: color 0.5s;
 }
 
 .alt-contact ul {
-  font-size: 1.8rem;
+  font-size: clamp(1rem, 4vw, 1.8rem);
   font-weight: 600;
   color: rgba(46, 42, 42, 0.8);
   text-align: center;
   text-decoration: none;
   list-style: none;
+  padding-left: 0;
 }
 
 /* previous Mobile navigation - for learning 
