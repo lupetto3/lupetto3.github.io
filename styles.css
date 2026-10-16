@@ -301,7 +301,33 @@ nav>ul>li {
     cursor: pointer;
   }
 
+  /* Mobile dropdown menu */
   #nav-links {
     display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    margin: 8px 0 0;
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+    background: rgba(46, 42, 42, 0.9);
+    border-radius: 10px;
+  }
+
+  /* Individual links inside the dropdown */
+  #nav-links li {
+    padding: 8px;
+  }
+
+  #nav-links a {
+    display: block;
+    padding: 6px;
+  }
+
+  /* Show the dropdown when the menu is open */
+  #navbar.is-open #nav-links {
+    display: flex;
   }
 }
