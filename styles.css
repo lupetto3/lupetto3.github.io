@@ -237,6 +237,7 @@ nav>ul>li {
   margin: auto;
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 /*#contact i {
