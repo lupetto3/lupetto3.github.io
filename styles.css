@@ -330,4 +330,8 @@ nav>ul>li {
   #navbar.is-open #nav-links {
     display: flex;
   }
+
+  .welcome-section {
+    padding-top: 80px;
+  }
 }
