@@ -149,7 +149,7 @@ nav>ul>li {
 
 /* Responsive version */
 .about-me p {
-  font-size: clamp(1rem, 2.5vw, 1.8rem);
+  font-size: clamp(1.15rem, 3.5vw, 1.8rem);
   max-width: 900px;
   margin: auto;
   color: rgba(46, 42, 42, 0.8);
