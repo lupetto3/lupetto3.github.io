@@ -281,6 +281,12 @@ nav>ul>li {
   padding-left: 0;
 }
 
+.menu-toggle:focus-visible {
+  outline: 2px solid whitesmoke;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 /* previous Mobile navigation - for learning 
 @media (max-width: 700px) {
   header {
